@@ -452,11 +452,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
-  filter: blur(100%);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.08);
 }
 
 .contact-form__container {
@@ -492,11 +488,6 @@ body {
 @media screen and (min-width: 768px) {
   .contact-form__container {
     width: 40%;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .contact-form__map {
   }
 }
 
@@ -621,4 +612,48 @@ body {
 .card-props {
   color: rgb(131, 131, 131);
   font-size: 0.8rem !important;
+}
+
+/*** About Us ***/
+.about-us {
+  background-color: var(--light);
+  margin-top: 22%;
+}
+
+.about-us h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 3rem !important;
+  color: var(--dark);
+}
+
+.advanced-search {
+  background-color: var(--dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--light);
+  padding: 1.5rem;
+}
+
+.advanced-search h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 3rem !important;
+  color: var(--light);
+  text-transform: uppercase;
+}
+
+.our-services h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 3rem !important;
+  color: var(--dark);
+}
+
+.item-service {
+  background-color: var(--light);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
 }
