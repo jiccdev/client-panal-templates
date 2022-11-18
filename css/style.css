@@ -614,7 +614,7 @@ body {
   font-size: 0.8rem !important;
 }
 
-/*** About Us ***/
+/*** About us ***/
 .about-us {
   background-color: var(--light);
   margin-top: 22%;
@@ -656,4 +656,41 @@ body {
 .item-service {
   background-color: var(--light);
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+}
+
+/*** Properties ***/
+.properties span i {
+  font-size: 1.5rem;
+  margin: 0rem 0 0 1rem;
+}
+
+span i {
+  font-size: 1rem !important;
+  margin-right: 1rem !important;
+}
+
+.setting-props-layout__filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*** Login ***/
+.login-form {
+  background-color: var(--dark);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+}
+
+.login-form h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--light);
+}
+
+@media screen and (min-width: 768px) {
+  .login-form {
+    width: 25%;
+  }
 }

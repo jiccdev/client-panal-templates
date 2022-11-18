@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Nosotros | Clientes Panal</title>
+    <title>Propiedades | Clientes Panal</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="" name="keywords" />
     <meta content="" name="description" />
@@ -48,6 +47,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
     />
   </head>
+
   <body>
     <!-- Spinner Start -->
     <div
@@ -65,7 +65,7 @@
     <!-- Spinner End -->
 
     <!-- Header Start -->
-    <div class="nav-bar container-xxl bg-transparent">
+    <div class="nav-bar container-xxl">
       <a
         href="home.html"
         class="navbar-brand d-flex align-items-center text-start d-none d-lg-block"
@@ -108,10 +108,10 @@
       </nav>
     </div>
     <!-- Navbar End -->
-
     <!-- Header Start -->
     <div
       class="container-fluid header bg-white p-0 position-absolute top-0 start-50 translate-middle-x"
+      style="height: 20vh"
     >
       <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
         <div className="animated fadeIn">
@@ -144,52 +144,339 @@
     <!-- Header End -->
 
     <!-- Main Start -->
-    <div class="container-xxl py-5 about-us">
+    <div class="container-xxl py-5 about-us properties">
       <div
         class="text-center mx-auto mb-5 wow fadeInUp"
         data-wow-delay="0.1s"
         style="max-width: 600px"
       ></div>
 
-      <div class="row">
+      <div class="row flex-column-reverse flex-lg-row">
         <div class="col-lg-9">
           <div>
-            <h1 class="mb-3 text-uppercase text-black-50">Nosotros</h1>
+            <h1 class="mb-3 text-uppercase text-black-50">Propiedades</h1>
+          </div>
+          <div class="setting-props-layout">
+            <div class="d-flex align-items-center justify-content-end">
+              <span>
+                <i class="bi bi-list-ul"></i>
+              </span>
+              <span>
+                <i class="bi bi-grid-fill"></i>
+              </span>
+              <span>
+                <i class="bi bi-pin-map"></i>
+              </span>
+            </div>
           </div>
 
-          <div
-            class="d-flex flex-column align-items-center justify-content-center p-2"
-          >
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              quae, voluptatum, quod, voluptas quibusdam voluptates quidem
-              voluptatibus quos quia quas dolorum. Quisquam, quae. Quisquam
-              quibusdam, quae quod voluptatum quas.
-            </p>
+          <div class="setting-props-layout__filter">
+            <div>
+              <p>60 propiedades encontradas</p>
+            </div>
+            <div class="d-flex align-items-center">
+              <p class="text-nowrap mt-3">Ordenar por:</p>
+              <select class="form-select border">
+                <option selected>Precio de menor a mayor</option>
+                <option value="1">Precio de mayor a menor</option>
+              </select>
+            </div>
+          </div>
 
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              quae, voluptatum, quod, voluptas quibusdam voluptates quidem
-              voluptatibus quos quia quas dolorum. Quisquam, quae. Quisquam
-              quibusdam, quae quod voluptatum quas.
-            </p>
+          <div class="row">
+            <!-- item 1 -->
+            <div class="col-sm-4 g-3">
+              <div class="property-item rounded overflow-hidden">
+                <div class="position-relative overflow-hidden">
+                  <a href="/property.html"
+                    ><img class="img-fluid" src="img/property-1.jpg" alt=""
+                  /></a>
+                  <div
+                    class="bg-dark rounded text-white position-absolute end-0 top-0 m-4 py-1 px-3"
+                  >
+                    Venta
+                  </div>
+                </div>
+                <div class="p-4 pb-0 card-props">
+                  <a class="d-block h6 mb-2 text-uppercase text-center" href=""
+                    >Lujosa Oficina en Venta La Dehesa</a
+                  >
+                  <p class="text-center">
+                    <i class="bi bi-pin-map"></i> Lo Barnechea, LO BARNECHEA
+                  </p>
+                </div>
+                <div class="d-flex border-top">
+                  <small class="flex-fill text-center border-end py-2"
+                    >UF 8.843</small
+                  >
+                  <small class="flex-fill text-center border-end py-2"
+                    >CLP 302.825.086</small
+                  >
+                </div>
+              </div>
+            </div>
 
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              quae, voluptatum, quod, voluptas quibusdam voluptates quidem
-              voluptatibus quos quia quas dolorum. Quisquam, quae. Quisquam
-              quibusdam, quae quod voluptatum quas.
-            </p>
+            <!-- item 2 -->
+            <div class="col-sm-4 g-3">
+              <div class="property-item rounded overflow-hidden">
+                <div class="position-relative overflow-hidden">
+                  <a href=""
+                    ><img class="img-fluid" src="img/property-1.jpg" alt=""
+                  /></a>
+                  <div
+                    class="bg-dark rounded text-white position-absolute end-0 top-0 m-4 py-1 px-3"
+                  >
+                    Venta
+                  </div>
+                </div>
+                <div class="p-4 pb-0 card-props">
+                  <a class="d-block h6 mb-2 text-uppercase text-center" href=""
+                    >Lujosa Oficina en Venta La Dehesa</a
+                  >
+                  <p class="text-center">
+                    <i class="bi bi-pin-map"></i> Lo Barnechea, LO BARNECHEA
+                  </p>
+                </div>
+                <div class="d-flex border-top">
+                  <small class="flex-fill text-center border-end py-2"
+                    >UF 8.843</small
+                  >
+                  <small class="flex-fill text-center border-end py-2"
+                    >CLP 302.825.086</small
+                  >
+                </div>
+              </div>
+            </div>
 
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              quae, voluptatum, quod, voluptas quibusdam voluptates quidem
-              voluptatibus quos quia quas dolorum. Quisquam, quae. Quisquam
-              quibusdam, quae quod voluptatum quas.
-            </p>
+            <!-- item 3 -->
+            <div class="col-sm-4 g-3">
+              <div class="property-item rounded overflow-hidden">
+                <div class="position-relative overflow-hidden">
+                  <a href=""
+                    ><img class="img-fluid" src="img/property-1.jpg" alt=""
+                  /></a>
+                  <div
+                    class="bg-dark rounded text-white position-absolute end-0 top-0 m-4 py-1 px-3"
+                  >
+                    Venta
+                  </div>
+                </div>
+                <div class="p-4 pb-0 card-props">
+                  <a class="d-block h6 mb-2 text-uppercase text-center" href=""
+                    >Lujosa Oficina en Venta La Dehesa</a
+                  >
+                  <p class="text-center">
+                    <i class="bi bi-pin-map"></i> Lo Barnechea, LO BARNECHEA
+                  </p>
+                </div>
+                <div class="d-flex border-top">
+                  <small class="flex-fill text-center border-end py-2"
+                    >UF 8.843</small
+                  >
+                  <small class="flex-fill text-center border-end py-2"
+                    >CLP 302.825.086</small
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- item 4 -->
+            <div class="col-sm-4 g-3">
+              <div class="property-item rounded overflow-hidden">
+                <div class="position-relative overflow-hidden">
+                  <a href=""
+                    ><img class="img-fluid" src="img/property-1.jpg" alt=""
+                  /></a>
+                  <div
+                    class="bg-dark rounded text-white position-absolute end-0 top-0 m-4 py-1 px-3"
+                  >
+                    Venta
+                  </div>
+                </div>
+                <div class="p-4 pb-0 card-props">
+                  <a class="d-block h6 mb-2 text-uppercase text-center" href=""
+                    >Lujosa Oficina en Venta La Dehesa</a
+                  >
+                  <p class="text-center">
+                    <i class="bi bi-pin-map"></i> Lo Barnechea, LO BARNECHEA
+                  </p>
+                </div>
+                <div class="d-flex border-top">
+                  <small class="flex-fill text-center border-end py-2"
+                    >UF 8.843</small
+                  >
+                  <small class="flex-fill text-center border-end py-2"
+                    >CLP 302.825.086</small
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- item 5 -->
+            <div class="col-sm-4 g-3">
+              <div class="property-item rounded overflow-hidden">
+                <div class="position-relative overflow-hidden">
+                  <a href=""
+                    ><img class="img-fluid" src="img/property-1.jpg" alt=""
+                  /></a>
+                  <div
+                    class="bg-dark rounded text-white position-absolute end-0 top-0 m-4 py-1 px-3"
+                  >
+                    Venta
+                  </div>
+                </div>
+                <div class="p-4 pb-0 card-props">
+                  <a class="d-block h6 mb-2 text-uppercase text-center" href=""
+                    >Lujosa Oficina en Venta La Dehesa</a
+                  >
+                  <p class="text-center">
+                    <i class="bi bi-pin-map"></i> Lo Barnechea, LO BARNECHEA
+                  </p>
+                </div>
+                <div class="d-flex border-top">
+                  <small class="flex-fill text-center border-end py-2"
+                    >UF 8.843</small
+                  >
+                  <small class="flex-fill text-center border-end py-2"
+                    >CLP 302.825.086</small
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- item 6 -->
+            <div class="col-sm-4 g-3">
+              <div class="property-item rounded overflow-hidden">
+                <div class="position-relative overflow-hidden">
+                  <a href=""
+                    ><img class="img-fluid" src="img/property-1.jpg" alt=""
+                  /></a>
+                  <div
+                    class="bg-dark rounded text-white position-absolute end-0 top-0 m-4 py-1 px-3"
+                  >
+                    Venta
+                  </div>
+                </div>
+                <div class="p-4 pb-0 card-props">
+                  <a class="d-block h6 mb-2 text-uppercase text-center" href=""
+                    >Lujosa Oficina en Venta La Dehesa</a
+                  >
+                  <p class="text-center">
+                    <i class="bi bi-pin-map"></i> Lo Barnechea, LO BARNECHEA
+                  </p>
+                </div>
+                <div class="d-flex border-top">
+                  <small class="flex-fill text-center border-end py-2"
+                    >UF 8.843</small
+                  >
+                  <small class="flex-fill text-center border-end py-2"
+                    >CLP 302.825.086</small
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- item 7 -->
+
+            <div class="col-sm-4 g-3">
+              <div class="property-item rounded overflow-hidden">
+                <div class="position-relative overflow-hidden">
+                  <a href=""
+                    ><img class="img-fluid" src="img/property-1.jpg" alt=""
+                  /></a>
+                  <div
+                    class="bg-dark rounded text-white position-absolute end-0 top-0 m-4 py-1 px-3"
+                  >
+                    Venta
+                  </div>
+                </div>
+                <div class="p-4 pb-0 card-props">
+                  <a class="d-block h6 mb-2 text-uppercase text-center" href=""
+                    >Lujosa Oficina en Venta La Dehesa</a
+                  >
+                  <p class="text-center">
+                    <i class="bi bi-pin-map"></i> Lo Barnechea, LO BARNECHEA
+                  </p>
+                </div>
+                <div class="d-flex border-top">
+                  <small class="flex-fill text-center border-end py-2"
+                    >UF 8.843</small
+                  >
+                  <small class="flex-fill text-center border-end py-2"
+                    >CLP 302.825.086</small
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- item 8 -->
+
+            <div class="col-sm-4 g-3">
+              <div class="property-item rounded overflow-hidden">
+                <div class="position-relative overflow-hidden">
+                  <a href=""
+                    ><img class="img-fluid" src="img/property-1.jpg" alt=""
+                  /></a>
+                  <div
+                    class="bg-dark rounded text-white position-absolute end-0 top-0 m-4 py-1 px-3"
+                  >
+                    Venta
+                  </div>
+                </div>
+                <div class="p-4 pb-0 card-props">
+                  <a class="d-block h6 mb-2 text-uppercase text-center" href=""
+                    >Lujosa Oficina en Venta La Dehesa</a
+                  >
+                  <p class="text-center">
+                    <i class="bi bi-pin-map"></i> Lo Barnechea, LO BARNECHEA
+                  </p>
+                </div>
+                <div class="d-flex border-top">
+                  <small class="flex-fill text-center border-end py-2"
+                    >UF 8.843</small
+                  >
+                  <small class="flex-fill text-center border-end py-2"
+                    >CLP 302.825.086</small
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- item 9 -->
+
+            <div class="col-sm-4 g-3">
+              <div class="property-item rounded overflow-hidden">
+                <div class="position-relative overflow-hidden">
+                  <a href=""
+                    ><img class="img-fluid" src="img/property-1.jpg" alt=""
+                  /></a>
+                  <div
+                    class="bg-dark rounded text-white position-absolute end-0 top-0 m-4 py-1 px-3"
+                  >
+                    Venta
+                  </div>
+                </div>
+                <div class="p-4 pb-0 card-props">
+                  <a class="d-block h6 mb-2 text-uppercase text-center" href=""
+                    >Lujosa Oficina en Venta La Dehesa</a
+                  >
+                  <p class="text-center">
+                    <i class="bi bi-pin-map"></i> Lo Barnechea, LO BARNECHEA
+                  </p>
+                </div>
+                <div class="d-flex border-top">
+                  <small class="flex-fill text-center border-end py-2"
+                    >UF 8.843</small
+                  >
+                  <small class="flex-fill text-center border-end py-2"
+                    >CLP 302.825.086</small
+                  >
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-lg-3 advanced-search">
+        <div class="col-lg-3 advanced-search h-75">
           <div>
             <h3>Búsqueda Avanzada</h3>
           </div>
@@ -324,67 +611,6 @@
     </div>
     <!-- Properties End -->
 
-    <!-- Main End -->
-
-    <!-- Category Start -->
-    <div class="container-xxl py-5 our-services">
-      <div class="container">
-        <div
-          class="text-center mx-auto mb-5 wow fadeInUp"
-          data-wow-delay="0.1s"
-          style="max-width: 600px"
-        >
-          <h2 class="mb-3">Nuestros Servicios</h2>
-        </div>
-        <div class="row g-4">
-          <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-            <a class="d-block text-center rounded p-3 item-service" href="">
-              <div class="rounded p-4">
-                <div class="icon mb-3">
-                  <img class="img-fluid" src="img/icon-villa.png" alt="Icon" />
-                </div>
-                <h6>Quiero vender</h6>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-            <a class="d-block text-center rounded p-3 item-service" href="">
-              <div class="rounded p-4">
-                <div class="icon mb-3">
-                  <img class="img-fluid" src="img/icon-villa.png" alt="Icon" />
-                </div>
-                <h6>Quiero arrendar</h6>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-            <a class="d-block text-center rounded p-3 item-service" href="">
-              <div class="rounded p-4">
-                <div class="icon mb-3">
-                  <img class="img-fluid" src="img/icon-villa.png" alt="Icon" />
-                </div>
-                <h6>Admin. de arriendo</h6>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-            <a class="d-block text-center rounded p-3 item-service" href="">
-              <div class="rounded p-4">
-                <div class="icon mb-3">
-                  <img class="img-fluid" src="img/icon-villa.png" alt="Icon" />
-                </div>
-                <h6>Servicios legales</h6>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Category End -->
-
     <!-- Contact Start -->
     <div class="container-fluid py-5 contact-form" data-wow-delay="0.1s">
       <div class="container contact-form__container">
@@ -495,7 +721,7 @@
         class="bg-white d-flex justify-content-center align-items-center flex-column border-bottom"
       >
         <div class="text-center">
-          <a href="#">
+          <a href="home.html">
             <h2 class="text-black-50 text-uppercase">Logo</h2>
           </a>
         </div>
@@ -568,6 +794,7 @@
       </div>
     </footer>
     <!-- Footer end -->
+    <!-- Main End -->
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
